@@ -1,0 +1,221 @@
+body {
+  background-color: #0d1117;
+  margin: 0;
+}
+#NavBarSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#NavBarDiv {
+  width: 100%;
+  height: 30px;
+  padding: 16px 32px;
+  background-color: #161b22;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#NavBarDiv input {
+  background-color: #0d1117;
+  border: 0.1px solid rgb(68, 67, 67);
+  color: white;
+  width: 250px;
+  height: 28px;
+
+  border-radius: 5px;
+  padding: 0 12px;
+  font-size: 15px;
+  transition: all 0.3s;
+}
+#NavBarDiv input:focus {
+  width: 400px;
+  background-color: #161b22;
+  outline: none;
+  /* border-radius: 10px 10px 0 0; */
+}
+#NavBarDiv a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#NavBarDiv > div:first-child i {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+#NavBarDiv > div:last-child i {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#NavBarDiv > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  gap: 20px;
+}
+#NavBarDiv > div:last-child > div > img {
+  width: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#NavBarDiv > div:last-child > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#NavBarDiv > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  width: 30%;
+}
+#SecondNavBarSection {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+#SecondNavVarDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.01px solid gray;
+  background-color: #0d1117;
+  padding: 10px 10px 0 10px;
+}
+#SecondNavVarDiv > div {
+  width: 50%;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#SecondNavVarDiv > div > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 3px;
+  padding-bottom: 15px;
+}
+#SecondNavVarDiv > div > div:first-child {
+  border-bottom: 0.5px solid orange;
+  padding-bottom: 15px;
+}
+#SecondNavVarDiv > div > div:hover {
+  background-color: #161b22;
+  border-radius: 3px;
+}
+#SecondNavVarDiv > div > div > img {
+  width: 20px;
+}
+#body {
+  height: 100vh;
+}
+#BodySectionProfile > div {
+  display: flex;
+  padding: 50px 80px 50px 80px;
+  gap: 30px;
+}
+#BodySectionProfile > div > div:first-child {
+  width: 25%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#BodySectionProfile > div > div:first-child h1 {
+  color: white;
+  margin: 0;
+  margin-top: 10px;
+}
+#BodySectionProfile > div > div:first-child p {
+  color: gray;
+  font-weight: 400;
+  margin: 0;
+  font-size: 20px;
+}
+#BodySectionProfile > div > div:first-child button {
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: #21262d;
+  font-size: 18px;
+  border: 1px solid rgba(128, 128, 128, 0.603);
+  height: 30px;
+  cursor: pointer;
+}
+#BodySectionProfile > div > div:first-child button:hover {
+  background-color: #313842e0;
+  font-size: 18px;
+  border: 1px solid rgba(161, 159, 159, 0.788);
+}
+
+#BodySectionProfile > div > div:first-child > img:first-child {
+  width: 280px;
+  height: 280px;
+  border-radius: 260px;
+  margin-top: -100px;
+  border: 1px solid gray;
+  padding: 1px;
+  z-index: 1;
+}
+#followerS {
+  color: rgb(201, 199, 199);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+#followerS img {
+  width: 20px;
+}
+#contentGrid {
+  width: 80%;
+  margin-top: -30px;
+
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#contentGrid > div {
+  height: 100px;
+  border: 1px solid rgb(182, 177, 177);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+#contentGrid > div > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: rgb(182, 169, 169);
+}
+#contentGrid > div > div > p {
+  padding: 1px 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: rgb(182, 169, 169);
+}
+#contentGrid > div > div > h1 {
+  margin: 0;
+  color: rgb(182, 169, 169);
+}
+#contentGrid > div > h3 {
+  color: rgb(182, 169, 169);
+}
